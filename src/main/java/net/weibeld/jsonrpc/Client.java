@@ -33,7 +33,6 @@ class Client {
         // Call client.getServiceDescription() to get a ServiceDescription that
         // describes all the remote methods that the JSON-RPC server provides.
 
-        // Close connection
         client.close();
         channel.close();
         connection.close();
